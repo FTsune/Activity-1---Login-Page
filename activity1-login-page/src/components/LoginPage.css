@@ -1,36 +1,61 @@
 .login-page {
-    max-width: 300px;
+    width: 300px;
     margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgb(58, 130, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.login-page h2 {
+    color: white;  
+    text-transform: uppercase;
 }
 
 .form-group {
-    margin-bottom: 2rem;  
+    margin-bottom: 1rem;
+    text-align: left; 
 }
 
+input[type="text"],
+input[type="password"],
 label {
     display: block;
     margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
 }
 
-input {
-    width: 100%;
-    padding: 1rem;  
-    font-size: 1.2rem; 
-    border-radius: 0.5rem;  
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 2 * 1rem - 2px); 
+    padding: 0.75rem;
+    border-radius: 0.25rem;
     border: 1px solid #ccc;
 }
 
 button {
     width: 100%;
-    padding: 1rem;  
-    font-size: 1.2rem;  
-    background-color: #28a745; 
-    color: #fff;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    background-color: green;
+    color: white;
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     cursor: pointer;
+    margin-top: 0.5rem;
 }
 
 button:hover {
-    background-color: #218838; 
+    background-color: darkgreen;
+}
+
+label input[type="checkbox"] {
+    margin-right: 0.5rem;
 }
