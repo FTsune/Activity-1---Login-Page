@@ -1,0 +1,41 @@
+.login-page {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(50, 50, 76);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 1rem; 
+    font-size: 1.2rem; 
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 1rem; 
+    font-size: 1.2rem; 
+    background-color: green; 
+    color: white; 
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen; 
+}
